@@ -39,10 +39,6 @@
   margin-left: 5px;
 }
 
-.location {
-  margin-bottom: 10px;
-}
-
 .edit-icon {
   font-size: 1.5rem; /* Ajuste la taille de l'icône de modification selon tes besoins */
   margin-bottom: 10px;
@@ -55,7 +51,7 @@
 .dot {
   height: 5px;
   width: 5px;
-  background-color: #fff;
+  background-color: #a59e9e;
   border-radius: 50%;
   display: inline-block;
   margin: 0 10px;
