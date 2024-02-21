@@ -1,4 +1,3 @@
-import React from "react";
 import "./dashboard.css"; // Assure-toi de créer ce fichier CSS
 
 const Dashboard = () => {
