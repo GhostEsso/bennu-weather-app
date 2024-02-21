@@ -21,7 +21,7 @@ const Dashboard = () => {
           <i className="bi bi-pencil"></i>
         </div>
         <div className="feels-like">
-          Feels like 32 <span className="dot"></span> Sunset 20:15
+          Feels like 33 <span className="dot"></span> Sunset 20:15
         </div>
       </div>
     </div>
