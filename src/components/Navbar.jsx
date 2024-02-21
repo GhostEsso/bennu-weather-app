@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-brand">
-          <h3 className="navbar-title">Weather Forecast</h3>
+          <h3 className="navbar-title">weather Forecast</h3>
         </div>
       </div>
     </nav>
