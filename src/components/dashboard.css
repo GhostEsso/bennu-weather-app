@@ -1,0 +1,63 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.rain-icon {
+  font-size: 2rem; /* Ajuste la taille de l'icône de pluie selon tes besoins */
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.wi-rain {
+  margin-right: 10px;
+}
+
+.today-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-date {
+  padding: 0;
+  margin-left: 25px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 4rem;
+}
+
+.temperature .c {
+  font-size: 0.5em;
+  vertical-align: super;
+  margin-left: 5px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.edit-icon {
+  font-size: 1.5rem; /* Ajuste la taille de l'icône de modification selon tes besoins */
+  margin-bottom: 10px;
+}
+
+.feels-like {
+  margin-top: 5px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+  margin-bottom: 3px;
+}
