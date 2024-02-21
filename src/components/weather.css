@@ -1,0 +1,59 @@
+.weather-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.dote {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  left: 60px;
+  margin-top: 2px;
+}
+
+.weather {
+  display: flex;
+  overflow-x: auto; /* Rend le conteneur coulissant horizontalement */
+  scroll-snap-type: x mandatory; /* Utilisé pour le défilement coulissant */
+  white-space: nowrap; /* Empêche le retour à la ligne des cartes */
+}
+
+.weather-details {
+  background-color: #1f2145;
+  margin-left: 45px;
+  border: 1px solid #3C3C66;
+  padding: 25px 15px;
+  margin-top: 15px;
+  border-radius: 35px;
+  scroll-snap-align: start;
+}
+
+.next {
+  color: #5a86c7;
+}
+
+.weather-time {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: #1f2145;
+}
+
+.weather-icon {
+  font-size: 10px;
+  margin-bottom: 5px;
+  background-color: #1f2145;
+}
+
+.weather-temperature {
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #1f2145;
+}
