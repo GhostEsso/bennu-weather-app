@@ -28,7 +28,7 @@
 .weather-details {
   background-color: #1f2145;
   margin-left: 45px;
-  border: 1px solid #3C3C66;
+  border: 1px solid #3c3c66;
   padding: 25px 15px;
   margin-top: 15px;
   border-radius: 35px;
@@ -37,6 +37,10 @@
 
 .next {
   color: #5a86c7;
+}
+
+.arrow {
+    color: #5a86c7;
 }
 
 .weather-time {

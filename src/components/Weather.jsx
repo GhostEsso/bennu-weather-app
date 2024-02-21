@@ -1,5 +1,4 @@
-import React from "react";
-import "./weather.css"; // Assure-toi de créer ce fichier CSS
+import "./weather.css";
 
 const Weather = () => {
   return (
@@ -10,7 +9,7 @@ const Weather = () => {
           <span className="dote"></span>
         </div>
         <div className="tomorrow">Tomorrow</div>
-        <div className="next">Next 7 Days > </div>
+        <div className="next">Next 7 Days <span className="arrow">&gt;</span> </div>
       </div>
 
       <div className="weather">
