@@ -1,0 +1,35 @@
+.rain h3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.weather {
+  display: flex;
+  margin: 0;
+}
+
+.sunny {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hours {
+  display: flex;
+  margin-left: 4.5em;
+  font-weight: 900;
+  justify-content: space-around;
+}
+
+.barre-laterale hr {
+  border-top: 9px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  width: 37%;
+  margin-left: 31%;
+  margin-top: -2px;
+}
