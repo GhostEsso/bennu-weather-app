@@ -45,20 +45,19 @@
 .barometer {
   height: 100px;
   width: 14px;
-  background-color: #2F3262;
+  background-color: #2f3262;
   transition: height 0.3s;
   border-radius: 10px;
   margin-bottom: 20px; /* Ajustez la valeur selon vos besoins */
 }
 
 .barometer.rainy {
-  background-color: #2F3262;
+  background-color: #2f3262;
   height: 80px;
 }
 
-
 .barometer.heavy-rainy {
-  background-color: #F6C63F;
+  background-color: #f6c63f;
   height: 50px;
   margin-left: 10px;
 }
