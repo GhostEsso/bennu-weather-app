@@ -36,14 +36,13 @@
 
 .weather-temperature {
   font-size: 10px;
-  font-weight: bold;
+  font-weight: bolder;
   background-color: #1f2145;
 }
 
 .weather-time {
   font-size: 10px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-weight: bolder;
   background-color: #1f2145;
 }
 
