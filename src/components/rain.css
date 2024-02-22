@@ -12,7 +12,7 @@
 }
 
 .sunny {
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 17px;
   font-weight: bolder;
   margin-top: 0;
@@ -24,6 +24,7 @@
   margin-left: 4.5em;
   font-weight: 900;
   justify-content: space-around;
+  margin-bottom: -10px;
 }
 
 .barre-laterale hr {
@@ -39,7 +40,7 @@
   display: flex;
   gap: 46px;
   align-items: last baseline;
-  margin-left: 2.5em;
+  margin-left: 2em;
 }
 
 .barometer {
@@ -48,16 +49,17 @@
   background-color: #2f3262;
   transition: height 0.3s;
   border-radius: 10px;
-  margin-bottom: 20px; /* Ajustez la valeur selon vos besoins */
+  margin-bottom: 15px;
 }
 
 .barometer.rainy {
   background-color: #2f3262;
   height: 80px;
+  margin-right: -15px;
 }
 
 .barometer.heavy-rainy {
   background-color: #f6c63f;
   height: 50px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
