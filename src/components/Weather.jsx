@@ -1,6 +1,42 @@
+import { useState } from "react";
 import "./weather.css";
 
 const Weather = () => {
+  const [liftedCards, setLiftedCards] = useState(Array(5).fill(false));
+
+  const toggleCardLift = (index) => {
+    const updatedLiftedCards = liftedCards.map((card, i) => (i === index ? !card : false));
+    setLiftedCards(updatedLiftedCards);
+  };
+
+  const generateWeatherCards = (numCards) => {
+    const times = ["12AM", "9AM", "10PM"];
+    const icons = ["wi-day-sunny", "wi-snow", "wi-day-sleet-storm", "wi-night-alt-storm-showers", "wi-day-sprinkle"];
+    const temperatures = ["26°C", "28°C", "24°C", "30°C"];
+
+    const cards = [];
+
+    for (let i = 0; i < numCards; i++) {
+      const randomTime = times[Math.floor(Math.random() * times.length)];
+      const randomIcon = icons[Math.floor(Math.random() * icons.length)];
+      const randomTemperature = temperatures[Math.floor(Math.random() * temperatures.length)];
+
+      const isCardLifted = liftedCards[i];
+
+      cards.push(
+        <div key={i} className={`weather-details ${isCardLifted ? "lifted" : ""}`} onClick={() => toggleCardLift(i)}>
+          <div className="weather-time">{randomTime}</div>
+          <div className={`weather-icon ${isCardLifted ? "lifted-icon" : ""}`}>
+            <i className={`wi ${randomIcon} ${isCardLifted ? "lifted-icon" : ""}`}></i>
+          </div>
+          <div className="weather-temperature">{randomTemperature}</div>
+        </div>
+      );
+    }
+
+    return cards;
+  };
+
   return (
     <div className="weather-container">
       <div className="weather-header">
@@ -9,46 +45,10 @@ const Weather = () => {
           <span className="dote"></span>
         </div>
         <div className="tomorrow">Tomorrow</div>
-        <div className="next">Next 7 Days <span className="arrow">&gt;</span> </div>
+        <div className="next">Next 7 Days <span className="arrow">&gt;</span></div>
       </div>
 
-      <div className="weather">
-        <div className="weather-details">
-          <div className="weather-time">12AM</div>
-          <div className="weather-icon">
-            <i className="wi wi-day-sunny"></i>
-          </div>
-          <div className="weather-temperature">26°C</div>
-        </div>
-        <div className="weather-details">
-          <div className="weather-time">9AM</div>
-          <div className="weather-icon">
-            <i className="wi wi-snow"></i>
-          </div>
-          <div className="weather-temperature">26°C</div>
-        </div>
-        <div className="weather-details">
-          <div className="weather-time">10PM</div>
-          <div className="weather-icon">
-            <i className="wi wi-day-sleet-storm"></i>
-          </div>
-          <div className="weather-temperature">26°C</div>
-        </div>
-        <div className="weather-details">
-          <div className="weather-time">12AM</div>
-          <div className="weather-icon">
-            <i className="wi wi-night-alt-storm-showers"></i>
-          </div>
-          <div className="weather-temperature">26°C</div>
-        </div>
-        <div className="weather-details">
-          <div className="weather-time">12AM</div>
-          <div className="weather-icon">
-            <i className="wi wi-day-sprinkle"></i>
-          </div>
-          <div className="weather-temperature">26°C</div>
-        </div>
-      </div>
+      <div className="weather">{generateWeatherCards(7)}</div>
     </div>
   );
 };
