@@ -45,7 +45,9 @@ const Weather = () => {
           <span className="dote"></span>
         </div>
         <div className="tomorrow">Tomorrow</div>
-        <div className="next">Next 7 Days <span className="arrow">&gt;</span></div>
+        <a href="/next-7-days" className="next">
+          Next 7 Days <span className="arrow">&gt;</span>
+        </a>
       </div>
 
       <div className="weather">{generateWeatherCards(7)}</div>

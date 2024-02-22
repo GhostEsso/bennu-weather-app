@@ -17,6 +17,10 @@
   margin-top: 2px;
 }
 
+.next {
+  text-decoration: none;
+}
+
 .weather {
   display: flex;
   overflow-x: auto;
