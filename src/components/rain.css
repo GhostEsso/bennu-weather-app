@@ -27,9 +27,10 @@
 }
 
 .barre-laterale hr {
-  border-top: 9px solid rgb(255, 255, 255);
+  border-top: 5px solid rgb(255, 255, 255);
   border-radius: 12px;
   width: 37%;
   margin-left: 31%;
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-bottom: 0px;
 }
