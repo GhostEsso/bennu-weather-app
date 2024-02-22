@@ -14,13 +14,17 @@ const Rain = () => {
           </p>
         </div>
         <div className="graphs">
+          <div className="barometer sunny" title="10AM"></div>
+          <div className="barometer rainy" title="12AM"></div>
+          <div className="barometer heavy-rainy" title="2PM"></div>
+          <div className="barometer rainy" title="4PM"></div>
+          <div className="barometer sunny" title="6PM"></div>
         </div>
       </div>
       <div className="hours">
         <p>10AM</p>
         <p>12AM</p>
         <p>2PM</p>
-        <p>4PM</p>
         <p>6PM</p>
         <p>8PM</p>
       </div>

@@ -5,7 +5,6 @@
   margin-right: 10px;
   font-weight: bolder;
   font-size: larger;
-  margin-bottom: 20px;
 }
 
 .dote {
@@ -75,7 +74,7 @@
 }
 
 .lifted {
-  transform: translateY(-15px);
+  transform: translateY(-5px);
   background-color: white;
   color: black;
   border: 2px solid #121b3b;
