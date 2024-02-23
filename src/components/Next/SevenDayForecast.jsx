@@ -1,12 +1,13 @@
+// SevenDayForecast.jsx
 import React from 'react';
 import Next from './Next';
-import "./styles/sevendayforecast.css";
+import styles from './styles/sevendayforecast.module.css';
 
 const SevenDayForecast = () => {
   return (
-    <>
+    <div className={styles.sevenDayForecastContainer}>
       <Next />
-    </>
+    </div>
   );
 };
 

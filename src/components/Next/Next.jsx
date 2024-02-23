@@ -1,3 +1,4 @@
+import "./styles/next.module.css";
 
 const Next = () => {
   return (
