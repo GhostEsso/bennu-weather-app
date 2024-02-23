@@ -1,4 +1,4 @@
-import "./styles/next.module.css";
+import "./styles/next.css";
 
 const Next = () => {
   return (
