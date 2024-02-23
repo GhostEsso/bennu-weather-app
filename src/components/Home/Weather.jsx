@@ -45,7 +45,7 @@ const Weather = () => {
           <span className="dote"></span>
         </div>
         <div className="tomorrow">Tomorrow</div>
-        <a href="/next-7-days" className="next">
+        <a href="/seven-day-forecast" className="next">
           Next 7 Days <span className="arrow">&gt;</span>
         </a>
       </div>

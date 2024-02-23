@@ -1,22 +1,16 @@
 // App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import SevenDayForecast from './components/SevenDayForecast';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/Home/HomePage';
+import SevenDayForecast from './components/Next/SevenDayForecast';
 
 const App = () => {
   return (
     <Router>
-      <div>
-        <Switch>
-          <Route path="/" >
-            <HomePage />
-          </Route>
-          <Route path="/seven-day-forecast">
-            <SevenDayForecast />
-          </Route>
-        </Switch>
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/seven-day-forecast" element={<SevenDayForecast />} />
+      </Routes>
     </Router>
   );
 };
