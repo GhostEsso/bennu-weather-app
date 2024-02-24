@@ -1,5 +1,4 @@
 // SevenDayForecast.jsx
-import React from "react";
 import Navbar from "./Navbar";
 import "./SecondPage.css";
 

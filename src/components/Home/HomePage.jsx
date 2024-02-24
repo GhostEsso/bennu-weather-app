@@ -1,5 +1,4 @@
 // HomePage.jsx
-import React from 'react';
 import Navbar from './Navbar';
 import Dashboard from './Dashboard';
 import Weather from './Weather';

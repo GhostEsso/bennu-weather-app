@@ -29,13 +29,13 @@
 .line11 {
   width: 35px;
   height: 2px;
-  background-color: #28335E;
+  background-color: #28335e;
 }
 
 .line22 {
   width: 17px;
   height: 2px;
-  background-color: #28335E;
+  background-color: #28335e;
 }
 
 .NavbaBrand {
@@ -45,7 +45,5 @@
 .NavbaTitle {
   font-family: "Poiret One", cursive;
   font-size: 20px;
-  color: #28335E;
-  font-weight: bold;
   margin-right: 100px;
 }
