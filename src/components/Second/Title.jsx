@@ -3,11 +3,11 @@ import "./Title.css";
 const Title = () => {
   return (
     <div>
-      <div className="nextP">
+      <div className="nextPart">
         <a href="/" className="nextP">
-          <span className="arrowP">&lt;</span> <br />
-          Next 7 Days
+          <span className="arrowP">&lt;</span>
         </a>
+        <h1>Next 7 Days</h1>
       </div>
     </div>
   );
