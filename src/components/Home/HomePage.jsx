@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 import Dashboard from './Dashboard';
 import Weather from './Weather';
 import Rain from './Rain';
-import "./homepage.css";
 import "./navbar.css";
+import "./HomePage.css";
 
 const HomePage = () => {
   return (
