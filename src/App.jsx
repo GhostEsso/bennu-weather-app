@@ -1,17 +1,15 @@
-import Navbar from './components/Navbar.jsx'; // Importe le composant Navbar correctement
-import './components/navbar.css'; // Assure-toi d'importer le fichier de styles correctement
-import Dashboard from './components/Dashboard.jsx';
-import Weather from './components/Weather.jsx';
-import Rain from './components/Rain.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/Home/HomePage';
+import SecondPage from './components/Second/SecondPage';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Dashboard />
-      <Weather />
-      <Rain />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/second-page" element={<SecondPage />} />
+      </Routes>
+    </Router>
   );
 };
 

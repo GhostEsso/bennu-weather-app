@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.secondPage {
   font-family: "Poiret One", sans-serif;
-  background-color: #121b3b;
-  color: white;
+  background-color: #f3fbff;
+  color: #293461;
+  font-weight: bold;
 }

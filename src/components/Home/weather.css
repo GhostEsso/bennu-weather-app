@@ -17,6 +17,11 @@
   margin-top: 2px;
 }
 
+.next {
+  text-decoration: none;
+  color: #5a86c7;
+}
+
 .weather {
   display: flex;
   overflow-x: auto;
@@ -84,10 +89,6 @@
     color 0.3s,
     border 0.3s,
     box-shadow 0.3s;
-}
-
-.next {
-  color: #5a86c7;
 }
 
 .arrow {
