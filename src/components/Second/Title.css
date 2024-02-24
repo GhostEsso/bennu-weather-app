@@ -1,0 +1,13 @@
+.nextP {
+    color: #28335e;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.arrowP {
+    color: #28335e;
+    margin-left: -10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
