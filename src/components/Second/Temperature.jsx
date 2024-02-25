@@ -71,26 +71,26 @@ const Temperature = () => {
         </div>
       </div>
 
-      <div className="weather-graph">
+      <div className="we">
         <div className="num">
           20°C
         </div>
-        <div className="sunny">
+        <div className="sunz">
           <div className="weather-bar"></div>
         </div>
-        <div className="rainy">
+        <div className="ra">
           <div className="weather-bar"></div>
         </div>
-        <div className="heavy-rainy">
+        <div className="he-ra">
           <div className="weather-bar"></div>
         </div>
-        <div className="sunny">
+        <div className="sunz">
           <div className="weather-bar"></div>
         </div>
-        <div className="rainy">
+        <div className="ra">
           <div className="weather-bar"></div>
         </div>
-        <div className="heavy-rainy">
+        <div className="he-ra">
           <div className="weather-bar"></div>
         </div>
       </div>

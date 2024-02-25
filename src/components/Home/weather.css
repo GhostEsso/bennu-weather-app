@@ -78,7 +78,7 @@
 }
 
 .lifted {
-  transform: translateY(-5px);
+  transform: translateY(-2px); /* Ajuste le décalage ici */
   background-color: white;
   color: black;
   border: 2px solid #121b3b;

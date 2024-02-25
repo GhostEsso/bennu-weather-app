@@ -6,9 +6,15 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .secondPage {
   font-family: "Poiret One", sans-serif;
   background-color: #f3fbff;
   color: #293461;
   font-weight: bold;
+  min-height: 100vh;
+  overflow: hidden; /* Empêche le défilement vertical */
 }
